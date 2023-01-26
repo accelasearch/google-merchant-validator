@@ -1,4 +1,6 @@
 # Google Merchant Validator
+![](https://github.com/accelasearch/google-merchant-validator/actions/workflows/php-composer.yml/badge.svg)
+![](https://github.com/accelasearch/google-merchant-validator/actions/workflows/php-unit-test.yml/badge.svg)
 Command-line validator for Google Merchant product feed.
 
 ## Installation
