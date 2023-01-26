@@ -2,6 +2,7 @@
     "name": "accelasearch/google-merchant-validator",
     "description": "Command-line validator for Google Merchant product feed",
     "type": "project",
+    "license": "MIT",
     "bin": [
         "bin/feed-validator.php"
     ],
