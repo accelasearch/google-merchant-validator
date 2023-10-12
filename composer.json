@@ -11,7 +11,7 @@
         "email": "marco.zanella@accelasearch.com"
     }],
     "require": {
-        "accelasearch/sdk-php": "^0.1.0"
+        "accelasearch/sdk-php": "dev-main"
     },
     "require-dev": {
         "phpunit/phpunit": ">=7"
