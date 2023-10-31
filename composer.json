@@ -11,6 +11,7 @@
         "email": "marco.zanella@accelasearch.com"
     }],
     "require": {
+        "php": ">=7.4",
         "accelasearch/sdk-php": "dev-main"
     },
     "require-dev": {
