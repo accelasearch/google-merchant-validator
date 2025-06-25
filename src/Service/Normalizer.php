@@ -37,7 +37,7 @@ class Normalizer {
      */
     public function __invoke(string $source, string $destination): self {
         $command = sprintf(
-            'xmllint --c14n %s | tr -d "\n" | sed "s/<item>/\n<item>/g" | sed "s/<\/channel>/\n<\/channel>/g" > %s',
+            'xmllint --c14n %s | tr -d "\n" | sed "s/entry>/item>/g" | sed "s/<item>/\n<item>/g" | sed "s/<\/channel>/\n<\/channel>/g" | sed "s/<\/feed>/\n<\/feed>/g" > %s',
             $source,
             $destination
         );
