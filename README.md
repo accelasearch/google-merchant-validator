@@ -8,20 +8,26 @@ Recommended installation is through Composer:
 composer require accelasearch/google-merchant-validator
 ```
 
-Manual installation is possible by cloning or downloading this repository:
+Manual installation is possible by cloning this repository:
 
 ```bash
-git clone https://github.com/accelasearch/sdk-php.git
+git clone https://github.com/accelasearch/google-merchant-validator.git
+cd google-merchant-validator
+composer update
 ```
 
+or by downloading it:
 ```bash
-wget https://github.com/accelasearch/sdk-php/archive/refs/heads/main.zip
+wget https://github.com/accelasearch/google-merchant-validator/archive/refs/heads/main.zip
+unsip main.zip
+cd google-merchant-validator
+composer update
 ```
 
 ## Usage
 To check whether an XML file is a valid Google Merchant product feed run:
 ```bash
-php bin/feed-validator.php path-to-xml-feed.xml
+php bin/feed-validator.php <path-to-xml-feed.xml>
 ```
 
 You will get an output similar to the one shown below, with additional information about items which are not valid:
